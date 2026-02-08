@@ -1,13 +1,18 @@
-# My-Website
+# My Website
+
 A personalized website as my portfolio
 
 ## Features
+- Simple and clean user interface
+- Portfolio and personal information sections
+- Responsive design
 
-## Tech Stack
-Structure: HTML
+## Frontend
+- Next.js (React framework)
+- React Hooks
+- JavaScript (JSX)
+- Tailwind CSS
 
-Framework: Next.js (React)
-
-Styling: Tailwind CSS
-
-Deployment: Vercel or Strapi or Netlify or Render
+## Build Tool / Runtime
+- Node.js
+- npm / pnpm / yarn
