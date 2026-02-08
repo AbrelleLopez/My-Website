@@ -9,10 +9,15 @@
     box-sizing: border-box;
   }
 
+  html {
+    overflow-x: hidden;
+  }
+
   body {
     margin: 0;
     padding: 0;
     font-family: 'Albert Sans', sans-serif;
+    overflow-x: hidden;
   }
 }
 

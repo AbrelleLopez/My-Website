@@ -68,7 +68,6 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
                     <li className="hover:text-gray-500 transition cursor-pointer" onClick={() => scrollToSection('projects')}>Projects</li>
                     <li className="hover:text-gray-500 transition cursor-pointer" onClick={() => scrollToSection('skills')}>Skills</li>
                     <li className="hover:text-gray-500 transition cursor-pointer" onClick={scrollToBottom}>Contact</li>
-
                     <li>
                         <button
                             onClick={handleDownloadCV}
@@ -81,7 +80,6 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
                             Download CV
                         </button>
                     </li>
-
                     <li>
                         <button
                             onClick={toggleDarkMode}
