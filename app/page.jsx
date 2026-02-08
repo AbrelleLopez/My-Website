@@ -56,23 +56,23 @@ export default function Home() {
     return (
         <div style={{ backgroundColor: darkMode ? '#000000' : '#FFFFFF', transition: 'background-color 0.3s ease' }}>
             <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-            <main className="relative pt-24 min-h-screen flex flex-col justify-center px-[80px] md:px-12 lg:px-20">
-                <div className="max-w-6xl flex gap-16 items-center">
+            <main className="relative pt-[8vw] min-h-screen flex flex-col justify-center px-[5vw]">
+                <div className="max-w-6xl flex gap-[3vw] items-center">
                     <div className="flex-1">
-                        <h1 className="mt-[250px] text-[43px] leading-[90px]" style={{ color: darkMode ? '#FFFFFF' : '#494949' }}>
+                        <h1 className="mt-[5vw] text-[2.5vw] leading-[1.2]" style={{ color: darkMode ? '#FFFFFF' : '#494949' }}>
                             Hi, I'm Abrelle Lopez!
                         </h1>
-                        <h1 className="text-[57px] leading-[70px] mt-4"
+                        <h1 className="text-[3.5vw] leading-[1.2] mt-[1vw]"
                             style={{ fontFamily: 'Encode Sans Condensed, sans-serif !important', fontWeight: '900' }}>
                             <span style={{ color: darkMode ? '#FFFFFF' : '#494949' }}>COMPUTER SCIENCE STUDENT <br/> & ASPIRING</span>{' '}
                             <span style={{ color: '#9333ea' }}>SOFTWARE DEVELOPER</span>
                         </h1>
-                        <p className="mt-[30px] mr-[130px] text-[23px] leading-[30px] max-w-xl" style={{ color: darkMode ? '#D1D5DB' : '#4B5563' }}>
+                        <p className="mt-[2vw] text-[1.4vw] leading-[1.3] max-w-xl" style={{ color: darkMode ? '#D1D5DB' : '#4B5563' }}>
                             Specializing in backend development using Java, with hands-on experience designing
                             application logic, working with relational databases, and integrating modern web
                             technologies through academic and personal projects.
                         </p>
-                        <button className="mt-[20px] text-[22px] px-[75px] py-[9px] font-semibold rounded-lg transition"
+                        <button className="mt-[1.5vw] text-[1.5vw] px-[5vw] py-[0.6vw] font-semibold rounded-lg transition"
                             style={{
                                 backgroundColor: darkMode ? '#FFFFFF' : '#1D1D1D',
                                 color: darkMode ? '#000000' : '#FFFFFF',
@@ -86,153 +86,153 @@ export default function Home() {
                         >
                             ABOUT ME
                         </button>
-                        <div className="mt-[100px] flex gap-[50px]">
+                        <div className="mt-[6vw] flex gap-[3vw]">
                              <a href="https://linkedin.com/in/abrelle-yin-lopez" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition">
-                                 <img src="/icons/linkedin.png" alt="LinkedIn" className="w-[40px] h-[40px]" style={{ filter: darkMode ? 'invert(1)' : 'none' }}/>
+                                 <img src="/icons/linkedin.png" alt="LinkedIn" className="w-[2.8vw] h-[2.8vw]" style={{ filter: darkMode ? 'invert(1)' : 'none' }}/>
                              </a>
                              <a href="https://github.com/AbrelleLopez" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition">
-                                 <img src="/icons/github.png" alt="GitHub" className="w-[40px] h-[40px]" style={{ filter: darkMode ? 'invert(1)' : 'none' }}/>
+                                 <img src="/icons/github.png" alt="GitHub" className="w-[2.8vw] h-[2.8vw]" style={{ filter: darkMode ? 'invert(1)' : 'none' }}/>
                              </a>
                              <a href="https://gitlab.com/abrellelopez" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition">
-                                 <img src="/icons/gitlab.png" alt="GitLab" className="w-[40px] h-[40px]" style={{ filter: darkMode ? 'invert(1)' : 'none' }}/>
+                                 <img src="/icons/gitlab.png" alt="GitLab" className="w-[2.8vw] h-[2.8vw]" style={{ filter: darkMode ? 'invert(1)' : 'none' }}/>
                              </a>
                              <a href="https://www.facebook.com/abrelleyin.lopez/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition">
-                                 <img src="/icons/facebook.png" alt="Facebook" className="w-[40px] h-[40px]" style={{ filter: darkMode ? 'invert(1)' : 'none' }}/>
+                                 <img src="/icons/facebook.png" alt="Facebook" className="w-[2.8vw] h-[2.8vw]" style={{ filter: darkMode ? 'invert(1)' : 'none' }}/>
                              </a>
                              <a href="https://www.instagram.com/abr_ellee/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 transition">
-                                 <img src="/icons/instagram.png" alt="Instagram" className="w-[40px] h-[40px]" style={{ filter: darkMode ? 'invert(1)' : 'none' }}/>
+                                 <img src="/icons/instagram.png" alt="Instagram" className="w-[2.8vw] h-[2.8vw]" style={{ filter: darkMode ? 'invert(1)' : 'none' }}/>
                              </a>
-                         </div>
+                        </div>
                     </div>
                     <div className="flex-shrink-0">
-                        <img src="/images/MeStart.jpg" alt="Abrelle Lopez" className="mt-[120px] w-[460px] h-[720px] object-cover rounded-full"/>
+                        <img src="/images/MeStart.jpg" alt="Abrelle Lopez" className="w-[27vw] h-[43vw] object-cover rounded-full"/>
                     </div>
                 </div>
 
-                <div id="projects" className="max-w-6xl mt-[200px] mb-[100px]">
-                    <h1 className="text-[55px] leading-[70px] mb-[8px]"
+                <div id="projects" className="max-w-6xl mt-[15vw] mb-[8vw]">
+                    <h1 className="text-[3.5vw] leading-[1.2] mb-[0.5vw]"
                         style={{ fontFamily: 'Encode Sans Condensed, sans-serif !important', fontWeight: '900', color: '#9333ea' }}>
                         PROJECTS
                     </h1>
 
-                    <p className="text-[23px] mb-[60px]" style={{ color: darkMode ? '#FFFFFF' : '#000000' }}>
+                    <p className="text-[1.4vw] mb-[4vw]" style={{ color: darkMode ? '#FFFFFF' : '#000000' }}>
                         Some of the college projects I contributed to:
                     </p>
-                    <div className="flex gap-[0px] items-start">
-                        <div className="flex-shrink-0 -ml-[100px]">
+                    <div className="flex gap-[2vw] items-start">
+                        <div className="flex-shrink-0 -ml-[7vw]">
                             <div className="relative">
-                                <img src="/images/ComputerImage.png" alt="PC Screen" className="w-[850px] h-auto"/>
+                                <img src="/images/ComputerImage.png" alt="PC Screen" className="w-[52vw] h-auto"/>
 
-                                <div className="absolute left-[130px] top-[60px] flex flex-col gap-[15px]">
+                                <div className="absolute left-[15%] top-[12%] flex flex-col gap-[1vw]">
                                     <button onClick={() => setSelectedProject(1)}
                                         className="hover:scale-110 transition-transform cursor-pointer bg-white overflow-hidden"
-                                        style={{ width: '60px', height: '60px', borderRadius: '15px', border: selectedProject === 1 ? '4px solid #9333ea' : 'none', padding: '0' }}>
-                                        <img src="/images/foodorder.png" alt="App 1" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '15px' }} />
+                                        style={{ width: '3.3vw', height: '3.3vw', borderRadius: '1vw', border: selectedProject === 1 ? '0.3vw solid #9333ea' : 'none', padding: '0' }}>
+                                        <img src="/images/foodorder.png" alt="App 1" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '1vw' }} />
                                     </button>
                                     <button onClick={() => setSelectedProject(2)}
                                         className="hover:scale-110 transition-transform cursor-pointer bg-white overflow-hidden"
-                                        style={{ width: '60px', height: '60px', borderRadius: '15px', border: selectedProject === 2 ? '4px solid #9333ea' : 'none', padding: '0' }}>
-                                        <img src="/images/quizbee.png" alt="App 2" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '15px' }} />
+                                        style={{ width: '3.3vw', height: '3.3vw', borderRadius: '1vw', border: selectedProject === 2 ? '0.3vw solid #9333ea' : 'none', padding: '0' }}>
+                                        <img src="/images/quizbee.png" alt="App 2" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '1vw' }} />
                                     </button>
                                     <button onClick={() => setSelectedProject(3)}
                                         className="hover:scale-110 transition-transform cursor-pointer bg-white overflow-hidden"
-                                        style={{ width: '60px', height: '60px', borderRadius: '15px', border: selectedProject === 3 ? '4px solid #9333ea' : 'none', padding: '0' }}>
-                                        <img src="/images/louisianlink.png" alt="App 3" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '15px' }} />
+                                        style={{ width: '3.3vw', height: '3.3vw', borderRadius: '1vw', border: selectedProject === 3 ? '0.3vw solid #9333ea' : 'none', padding: '0' }}>
+                                        <img src="/images/louisianlink.png" alt="App 3" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '1vw' }} />
                                     </button>
                                     <button onClick={() => setSelectedProject(4)}
                                         className="hover:scale-110 transition-transform cursor-pointer bg-white overflow-hidden"
-                                        style={{ width: '60px', height: '60px', borderRadius: '15px', border: selectedProject === 4 ? '4px solid #9333ea' : 'none', padding: '0' }}>
-                                        <img src="/images/hangman.png" alt="App 4" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '15px' }} />
+                                        style={{ width: '3.3vw', height: '3.3vw', borderRadius: '1vw', border: selectedProject === 4 ? '0.3vw solid #9333ea' : 'none', padding: '0' }}>
+                                        <img src="/images/hangman.png" alt="App 4" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '1vw' }} />
                                     </button>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="flex-1 -ml-[50px] mt-[40px]">
-                            <h4 className="text-[23px] font-bold mb-[20px]" style={{ color: darkMode ? '#FFFFFF' : '#000000' }}>
+                        <div className="flex-1 -ml-[3.5vw] mt-[3vw]">
+                            <h4 className="text-[1.4vw] font-bold mb-[1.5vw]" style={{ color: darkMode ? '#FFFFFF' : '#000000' }}>
                                 {currentProject.title}
                             </h4>
-                            <p className="text-[20px] leading-[20px] mb-[25px]" style={{ color: darkMode ? '#D1D5DB' : '#374151' }}>
+                            <p className="text-[1.2vw] leading-[1.5] mb-[1.8vw]" style={{ color: darkMode ? '#D1D5DB' : '#374151' }}>
                                 {currentProject.tools}
                             </p>
-                            <p className="text-[20px] leading-[25px] mb-[25px]" style={{ color: darkMode ? '#D1D5DB' : '#374151' }}>
+                            <p className="text-[1.2vw] leading-[1.5] mb-[1.8vw]" style={{ color: darkMode ? '#D1D5DB' : '#374151' }}>
                                 {currentProject.description}
                             </p>
-                            <h4 className="text-[23px] font-bold mb-[15px]" style={{ color: darkMode ? '#FFFFFF' : '#000000' }}>
+                            <h4 className="text-[1.4vw] font-bold mb-[1vw]" style={{ color: darkMode ? '#FFFFFF' : '#000000' }}>
                                 My Contributions:
                             </h4>
-                            <ul className="list-disc list-inside text-[20px] mb-[25px] space-y-[2px]" style={{ color: darkMode ? '#D1D5DB' : '#4B5563' }}>
+                            <ul className="list-disc list-inside text-[1.2vw] mb-[1.8vw] space-y-[0.2vw]" style={{ color: darkMode ? '#D1D5DB' : '#4B5563' }}>
                                 {currentProject.contributions.map((tech, index) => (
                                     <li key={index}>{tech}</li>
                                 ))}
                             </ul>
-                            <p className="text-[23px] leading-[28px]" style={{ color: darkMode ? '#D1D5DB' : '#374151' }}>
+                            <p className="text-[1.4vw] leading-[1.5]" style={{ color: darkMode ? '#D1D5DB' : '#374151' }}>
                                 {currentProject.details}
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <div id="skills" className="max-w-6xl mt-[100px] mb-[100px]">
-                    <h1 className="text-[55px] leading-[70px] mb-[8px]"
+                <div id="skills" className="max-w-6xl mt-[8vw] mb-[8vw]">
+                    <h1 className="text-[3.5vw] leading-[1.2] mb-[0.5vw]"
                         style={{ fontFamily: 'Encode Sans Condensed, sans-serif !important', fontWeight: '900', color: darkMode ? '#FFFFFF' : '#494949' }}>
                         SKILLS
                     </h1>
 
-                    <div className="flex items-center mb-[150px] mt-[100px] text-center" style={{ gap: '50px' }}>
-                        <h2 className="text-[24px] font-semibold w-[200px]" style={{ color: darkMode ? '#FFFFFF' : '#000000' }}>
+                    <div className="flex flex-wrap items-center justify-left lg:justify-start mb-[10vw] mt-[8vw] text-center gap-[3.5vw]">
+                        <h2 className="text-[1.7vw] w-[14vw]" style={{ color: darkMode ? '#FFFFFF' : '#000000' }}>
                             USING <br />NOW
                         </h2>
-                            <img src="/icons/html.png" alt="html" style={{ width: 'auto', height: '120px' }} />
-                            <img src="/icons/css.png" alt="css" style={{ width: 'auto', height: '120px' }} />
-                            <img src="/icons/java.png" alt="java" style={{ width: 'auto', height: '150px' }} />
-                            <img src="/icons/mysql.png" alt="mysql" style={{ width: 'auto', height: '120px' }} />
-                            <img src="/icons/figma.png" alt="figma" style={{ width: 'auto', height: '120px' }} />
-                            <img src="/icons/git.png" alt="git" style={{ width: 'auto', height: '120px' }} />
-                            <img src="/icons/wamp.png" alt="wamp" style={{ width: 'auto', height: '100px' }} />
+                            <img src="/icons/html.png" alt="html" style={{ width: 'auto', height: '7vw' }} />
+                            <img src="/icons/css.png" alt="css" style={{ width: 'auto', height: '7vw' }} />
+                            <img src="/icons/java.png" alt="java" style={{ width: 'auto', height: '8vw' }} />
+                            <img src="/icons/mysql.png" alt="mysql" style={{ width: 'auto', height: '7vw' }} />
+                            <img src="/icons/figma.png" alt="figma" style={{ width: 'auto', height: '7vw' }} />
+                            <img src="/icons/git.png" alt="git" style={{ width: 'auto', height: '7vw' }} />
+                            <img src="/icons/wamp.png" alt="wamp" style={{ width: 'auto', height: '5.5vw' }} />
                     </div>
-                    <div className="flex items-center mb-[150px] text-center" style={{ gap: '50px' }}>
-                        <h2 className="text-[24px] font-semibold w-[200px]" style={{ color: darkMode ? '#FFFFFF' : '#000000' }}>
+                    <div className="flex flex-wrap items-center justify-left lg:justify-start mb-[10vw] text-center gap-[3.5vw]">
+                        <h2 className="text-[1.7vw] w-[14vw]" style={{ color: darkMode ? '#FFFFFF' : '#000000' }}>
                             LEARNING
                         </h2>
-                            <img src="/icons/javascript.png" alt="javascript" style={{ width: 'auto', height: '100px' }} />
-                            <img src="/icons/nodejs.png" alt="nodejs" style={{ width: 'auto', height: '100px' }} />
-                            <img src="/icons/nextjs.png" alt="nextjs" style={{ width: 'auto', height: '60px' }} />
-                            <img src="/icons/tailwind.png" alt="tailwind" style={{ width: 'auto', height: '100px' }} />
+                            <img src="/icons/javascript.png" alt="javascript" style={{ width: 'auto', height: '6vw' }} />
+                            <img src="/icons/nodejs.png" alt="nodejs" style={{ width: 'auto', height: '6vw' }} />
+                            <img src="/icons/nextjs.png" alt="nextjs" style={{ width: 'auto', height: '3.5vw' }} />
+                            <img src="/icons/tailwind.png" alt="tailwind" style={{ width: 'auto', height: '6vw' }} />
                     </div>
-                    <div className="flex items-center gap-[100px] mb-[150px] text-center">
-                        <h2 className="text-[24px] font-semibold w-[200px]" style={{ color: darkMode ? '#FFFFFF' : '#000000' }}>
+                    <div className="flex flex-wrap items-center justify-left lg:justify-start gap-[7vw] mb-[10vw] text-center">
+                        <h2 className="text-[1.7vw] w-[14vw]" style={{ color: darkMode ? '#FFFFFF' : '#000000' }}>
                             OTHER <br />SKILLS
                         </h2>
-                        <ul className="list-none text-left text-[20px]" style={{ color: darkMode ? '#FFFFFF' : '#000000' }}>
+                        <ul className="list-none text-left text-[1.4vw]" style={{ color: darkMode ? '#FFFFFF' : '#000000' }}>
                             <li>Responsive Web Design</li>
                             <li>Wireframing & Prototyping</li>
                             <li>User Flow Design</li>
                         </ul>
-                        <ul className="list-none text-left text-[20px]" style={{ color: darkMode ? '#FFFFFF' : '#000000' }}>
+                        <ul className="list-none text-left text-[1.4vw]" style={{ color: darkMode ? '#FFFFFF' : '#000000' }}>
                             <li>Pair Programming</li>
                             <li>Testing & Debugging</li>
                         </ul>
-                        <ul className="list-none text-left text-[20px]" style={{ color: darkMode ? '#FFFFFF' : '#000000' }}>
+                        <ul className="list-none text-left text-[1.4vw]" style={{ color: darkMode ? '#FFFFFF' : '#000000' }}>
                             <li>English</li>
                             <li>Tagalog</li>
                         </ul>
                     </div>
                 </div>
 
-                <div id="about" className="relative mt-[100px]">
-                    <div style={{position: 'absolute', top: '150px', left: '0', width: '1100px', height: '5.5px', backgroundColor: '#9333ea', zIndex: 1 }}></div>
+                <div id="about" className="relative mt-[8vw]">
+                    <div style={{position: 'absolute', top: '10.5vw', left: '0', width: '77vw', height: '0.4vw', backgroundColor: '#9333ea', zIndex: 1 }}></div>
 
-                    <div className="flex gap-[75px] items-center">
-                        <div className="max-w-6xl mt-[100px] mb-[100px] relative z-10">
-                            <h1 className="text-[110px] leading-[70px] font-bold mb-[8px] mt-[30px]"
+                    <div className="flex gap-[5vw] items-center">
+                        <div className="max-w-6xl mt-[8vw] mb-[8vw] relative z-10">
+                            <h1 className="text-[7.7vw] leading-[1.2] font-bold mb-[0.5vw] mt-[2vw]"
                                 style={{ fontFamily: 'Encode Sans Condensed, sans-serif !important', fontWeight: '900', color: darkMode ? '#FFFFFF' : '#313131' }}>
                                 ABOUT.
                             </h1>
-                            <h3 className="text-[23px] leading-[28px] font-bold mt-[150px]" style={{ color: darkMode ? '#D1D5DB' : '#374151' }}>
+                            <h3 className="text-[1.4vw] leading-[1.5] font-bold mt-[10.5vw]" style={{ color: darkMode ? '#D1D5DB' : '#374151' }}>
                                 I value clear communication just as much as quality work.
                             </h3>
-                            <p className="text-[22px] leading-[28px] mt-[20px]" style={{ color: darkMode ? '#D1D5DB' : '#374151' }}>
+                            <p className="text-[1.2vw] leading-[1.5] mt-[1.4vw]" style={{ color: darkMode ? '#D1D5DB' : '#374151' }}>
                                 I'm driven by the idea of building systems that don't just work, but work better for the people who use them.
                                 With an interest in both design and development, I enjoy improving how technology functions behind the scenes
                                 while making sure the experience feels intuitive on the surface.
@@ -243,38 +243,38 @@ export default function Home() {
                             </p>
                         </div>
 
-                        <div className="top-0 right-0 flex-shrink-0 w-[700px] h-[900px] -mr-[80px] -mt-[20px]">
+                        <div className="flex-shrink-0 w-[45vw] h-[55vw] -mr-[5.6vw] mt-[5vw]">
                             <img src="/images/MeEnd.png" alt="About" className="w-full h-full object-cover"/>
                         </div>
                     </div>
                 </div>
 
-                <footer style={{ backgroundColor: '#583981', color: 'white', padding: '60px 0', width: '100vw', marginLeft: 'calc(-80px)', marginRight: 'calc(-80px)' }}>
-                    <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 80px', display: 'flex', justifyContent: 'space-between', alignItems: 'start' }}>
-                        <div style={{ marginLeft: '-100px' }}>
-                            <img src="/images/AbrelleLogoInvertedT.png" alt="Logo" style={{ width: '200px', height: 'auto' }} />
+                <footer style={{ backgroundColor: '#583981', color: 'white', padding: '4.2vw 0', width: '100vw', marginLeft: 'calc(-5vw)', marginRight: 'calc(-5vw)' }}>
+                    <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 5.6vw', display: 'flex', justifyContent: 'space-between', alignItems: 'start' }}>
+                        <div style={{ flex: '0 0 auto' }}>
+                            <img src="/images/AbrelleLogoInvertedT.png" alt="Logo" style={{ width: '14vw', height: 'auto' }} />
                         </div>
 
-                        <div style={{ display: 'flex', gap: '100px' }}>
+                        <div style={{ display: 'flex', gap: '7vw', flex: '1 1 auto', justifyContent: 'flex-end' }}>
                             <div>
-                                <h3 style={{ fontSize: '20px', fontWeight: 'bold', marginBottom: '20px' }}>CONTACT</h3>
+                                <h3 style={{ fontSize: '1.4vw', fontWeight: 'bold', marginBottom: '1.4vw' }}>CONTACT</h3>
                                 <ul style={{ listStyle: 'none', padding: 0 }}>
-                                    <li style={{ marginBottom: '12px', fontSize: '16px' }}>Email: abrellelopez@gmail.com</li>
-                                    <li style={{ marginBottom: '12px', fontSize: '16px' }}>Phone: +63 917 136 0401</li>
-                                    <li style={{ marginBottom: '12px', fontSize: '16px' }}>Location: Baguio City, PH</li>
+                                    <li style={{ marginBottom: '0.8vw', fontSize: '1.1vw' }}>Email: abrellelopez@gmail.com</li>
+                                    <li style={{ marginBottom: '0.8vw', fontSize: '1.1vw' }}>Phone: +63 917 136 0401</li>
+                                    <li style={{ marginBottom: '0.8vw', fontSize: '1.1vw' }}>Location: Baguio City, PH</li>
                                 </ul>
                             </div>
 
                             <div>
-                                <h3 style={{ fontSize: '20px', fontWeight: 'bold', marginBottom: '20px' }}>CONNECT</h3>
+                                <h3 style={{ fontSize: '1.4vw', fontWeight: 'bold', marginBottom: '1.4vw' }}>CONNECT</h3>
                                 <ul style={{ listStyle: 'none', padding: 0 }}>
-                                    <li style={{ marginBottom: '12px', fontSize: '16px' }}>
+                                    <li style={{ marginBottom: '0.8vw', fontSize: '1.1vw' }}>
                                         <a href="https://linkedin.com/in/abrelle-yin-lopez" style={{ color: 'white', textDecoration: 'none' }}>LinkedIn</a>
                                     </li>
-                                    <li style={{ marginBottom: '12px', fontSize: '16px' }}>
+                                    <li style={{ marginBottom: '0.8vw', fontSize: '1.1vw' }}>
                                         <a href="https://github.com/AbrelleLopez" style={{ color: 'white', textDecoration: 'none' }}>GitHub</a>
                                     </li>
-                                    <li style={{ marginBottom: '12px', fontSize: '16px' }}>
+                                    <li style={{ marginBottom: '0.8vw', fontSize: '1.1vw' }}>
                                         <a href="https://gitlab.com/abrellelopez" style={{ color: 'white', textDecoration: 'none' }}>GitLab</a>
                                     </li>
                                 </ul>
@@ -283,15 +283,15 @@ export default function Home() {
                     </div>
                 </footer>
 
-                <div style={{ backgroundColor: '#262626', color: '#D1D5DB', padding: '20px 0', width: '100vw', marginLeft: 'calc(-80px)',
-                    marginRight: 'calc(-80px)', textAlign: 'center', fontSize: '14px' }}>
+                <div style={{ backgroundColor: '#262626', color: '#D1D5DB', padding: '1.4vw 0', width: '100vw', marginLeft: 'calc(-5vw)',
+                    marginRight: 'calc(-5vw)', textAlign: 'center', fontSize: '1vw' }}>
                     © 2026 Abrelle Yin Lopez. All rights reserved.
                 </div>
             </main>
 
             <button
                 onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                className="fixed bottom-[30px] right-[30px] w-[50px] h-[50px] border-none rounded-full text-[30px] cursor-pointer z-[1000] transition-colors"
+                className="fixed bottom-[2.1vw] right-[2.1vw] w-[3.5vw] h-[3.5vw] border-none rounded-full text-[2.1vw] cursor-pointer z-[1000] transition-colors"
                 style={{ backgroundColor: '#9333ea', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)', color: '#FFFFFF'}}
                 onMouseEnter={(e) => e.target.style.backgroundColor = '#7c3aed'}
                 onMouseLeave={(e) => e.target.style.backgroundColor = '#9333ea'}
